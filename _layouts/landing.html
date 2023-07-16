@@ -99,6 +99,7 @@
                   <a href="{{ my_post.url | prepend:site.baseurl }}">
                   <div class="container">
                   <h3>{{ my_post.title }}</h3>
+                  <span> {{ my_post.date | date: "%-d %B %Y"}} </span>
                   <p>{{ my_post.data}}<br />{{ my_post.excerpt | strip_html | truncatewords: 16 }}</p>
                   </div>
                   </a>

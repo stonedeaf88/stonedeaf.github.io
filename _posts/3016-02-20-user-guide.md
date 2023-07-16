@@ -9,7 +9,7 @@ categories:
   - topics
   - user-guide
 background-image: flickr-froderik.jpg
-icon: book
+icon: bullhorn
 ---
 
 <hr />
