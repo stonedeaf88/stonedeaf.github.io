@@ -12,7 +12,7 @@
 
 # Site settings
 title: STONEDEAF
-description: Blues Rock Band 
+description: Le Groupe de Blues Rock Vosgien
 owner:
   name: Nicolas Formet # or company name
   url: "http://example.com" # your URL
@@ -29,8 +29,8 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: STONEDEAF  
-  text: Blues Rock Band
-# - displayed at the bottom
+  text: Stonedeaf Vosges, un groupe de blues-rock déchaîné, inspiré par Motörhead, Black Sabbath et Elvis Presley, te fera vibrer avec leurs riffs diaboliques et mélodies enflammées. Leur énergie sur scène est contagieuse, et leurs paroles racontent des histoires captivantes. Prépare-toi à être secoué par le son des montagnes !
+  # - displayed at the bottom
 closing-head: STONEDEAF
 closing-para: Thank you for the visit! 
 
@@ -38,7 +38,7 @@ closing-para: Thank you for the visit!
 social:
   facebook-official: https://www.facebook.com/STONEDEAF88
   #google-plus-square: https://plus.google.com/u/0/+_username_
-  email: /contact/ # you can configure and use this contact page or use your email addy
+  email: formet.nicolas@gmail.com # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:
   youtube-square: https://www.youtube.com/@stonedeaf3404/videos

@@ -2,27 +2,26 @@
 key: 2
 title: Gallerie Photo
 permalink: /gallerie-photo/
-background-image: banner.jpg
+background-image: stonedeaf-gif.gif
+image: stonedeaf-gif.gif
 options: fullwidth
 ---
-<div class="box alt">
+<style>
+    .breadcrumb,
+    .wrapper.style5 {
+        background-color: #171c21;
+    }
+</style>
+<div class="box alt" style="background-color: #171c21;">
     <div class="row uniform 50%">
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo01.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo02.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo03.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo04.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo05.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo06.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo07.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo08.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo09.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo10.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo11.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo12.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo13.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo14.jpg" alt="" /></span></div>
-        <div class="4u"><span class="image fit"><img src="{{ site.baseurl }}/images/photo15.jpg" alt="" /></span></div>
+
+        {% for image in site.static_files %}
+        {% if image.path contains 'images/gallery' %}
+        <div class="4u"><span class="image fit"><a href="{{ site.baseurl }}{{ image.path }}"
+                    title="Ceci est un lien image HTML">
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                </a></span></div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
-
-  
