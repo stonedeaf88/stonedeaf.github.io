@@ -2371,12 +2371,3 @@ $baseurl: '{{ site.baseurl }}/images';
 {% if site.custom_extensions == 'yes' %}
 {% include _my/custom.scss %}
 {% endif %}
-
-@keyframes skew-y-shakeing{
-	0% { transform: skewY(-15deg); }
-	5% { transform: skewY(15deg); }
-	10% { transform: skewY(-15deg); }
-	15% { transform: skewY(15deg); }
-	20% { transform: skewY(0deg); }
-	100% { transform: skewY(0deg); }
-   }
