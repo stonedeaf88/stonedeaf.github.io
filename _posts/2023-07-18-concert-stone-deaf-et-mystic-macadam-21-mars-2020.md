@@ -6,6 +6,7 @@ tags: featured
 categories:
   - topics
 background-image: concert03.jpg
+icon: bullhorn
 #date/lastmod are optional
 #date: 2023-07-18 14:43:56 +0200
 #lastmod: 2023-07-18 14:43:56 +0200
