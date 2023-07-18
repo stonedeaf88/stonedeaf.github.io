@@ -10,7 +10,7 @@
 # Also, for your post bylines, add author info for yourself in `_data/authors.yml`.
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
-# Site settings
+# Site settings 
 title: STONEDEAF
 description: Le Groupe de Blues Rock Vosgien
 owner:
