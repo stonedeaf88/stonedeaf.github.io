@@ -12,7 +12,7 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner">
+    <section id="banner" style="box-shadow: 0px 0px 15px black;">
       <div class="inner">
         <h1
           style="font-family:'Rubik Glitch', cursive; text-shadow: -0.06em 0 red, 0.06em 0 cyan;">
@@ -33,7 +33,7 @@
     {%
     if site.greeting %}
     <!-- One -->
-    <section id="greeting" class="wrapper style1 special">
+    <section id="greeting" class="wrapper style1 special" style="box-shadow: 0px 0px 15px black;">
       <div class="inner">
         <header class="major">
           <!--<h2>{% if site.greeting.title %}{{ site.greeting.title }}{% else %}{{ site.title }}{% endif %}</h2>-->
@@ -61,7 +61,7 @@
     endif %}
 
     <!-- Two -->
-    <section id="landing_pages" class="wrapper alt style2">
+    <section id="landing_pages" class="wrapper alt style2" style="box-shadow: 0px 0px 15px black;">
       {% assign sorted_pages = site.pages | sort:"id" %}
       {% for my_page in sorted_pages %}
       {% if my_page.title %}
@@ -115,7 +115,7 @@
 
     <!-- Three -->{%
     if site.tags.featured %}
-    <section id="landing_features" class="wrapper style3 special">
+    <section id="landing_features" class="wrapper style3 special" style="box-shadow: 0px 0px 15px black;">
       <div class="inner">
         <header class="major">
           <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;">{{ site.features-title }}</h2>
@@ -146,7 +146,7 @@
     endif %}
 
     <!-- CTA -->
-    <section id="cta" class="wrapper style4">
+    <section id="cta" class="wrapper style4" >
       <div class="inner">
         <header>
           <h2>{{ site.closing-head }}</h2>
