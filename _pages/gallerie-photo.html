@@ -19,7 +19,7 @@ options: fullwidth
         {% if image.path contains 'images/gallery' %}
         <div class="4u"><span class="image fit"><a href="{{ site.baseurl }}{{ image.path }}"
                     title="Ceci est un lien image HTML">
-                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
                 </a></span></div>
         {% endif %}
         {% endfor %}
