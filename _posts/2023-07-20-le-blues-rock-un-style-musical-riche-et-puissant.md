@@ -19,23 +19,24 @@ Parmi les plus grands groupes de blues rock, on peut citer Led Zeppelin, Jimi He
 Le blues rock est un style musical riche et diversifié, qui continue d'évoluer et de se réinventer. Il est un genre musical apprécié par un large public, et il continue de faire des adeptes à travers le monde.
 
 Voici quelques-uns des éléments qui caractérisent le blues rock :
-
-    Un son puissant et expressif, avec des riffs de guitare accrocheurs.
-    Des paroles souvent émotionnelles, qui abordent des thèmes tels que la vie, l'amour, la perte et la lutte.
-    Un mélange de blues et de rock, avec une influence des musiques afro-américaines.
-    Un style musical qui continue d'évoluer et de se réinventer.
-
+<ul>
+		<li>Un son puissant et expressif, avec des riffs de guitare accrocheurs.</li>
+		<li>Des paroles souvent émotionnelles, qui abordent des thèmes tels que la vie, l'amour, la perte et la lutte.</li>
+		<li>Un mélange de blues et de rock, avec une influence des musiques afro-américaines.</li>
+    <li>Un style musical qui continue d'évoluer et de se réinventer.</li>
+</ul>
 Si vous êtes un fan de blues rock, voici quelques groupes que vous devriez écouter :
-
-    Led Zeppelin
-    Jimi Hendrix
-    The Rolling Stones
-    Eric Clapton
-    Cream
-    The Blues Brothers
-    Stevie Ray Vaughan
-    Janis Joplin
-    BB King
-    Muddy Waters
+<ul>
+		<li>Led Zeppelin</li>
+		<li>Jimi Hendrix</li>
+		<li>The Rolling Stones</li>
+    <li>Eric Clapton</li>
+		<li>Cream</li>
+		<li>The Blues Brothers</li>
+    <li>Stevie Ray Vaughan</li>
+		<li>Janis Joplin</li>
+		<li>BB King</li>
+    <li>Muddy Waters</li>
+</ul>
 
 Le blues rock est un style musical riche et passionnant, qui a quelque chose à offrir à tout le monde. Si vous ne l'avez jamais écouté, je vous encourage à le découvrir !

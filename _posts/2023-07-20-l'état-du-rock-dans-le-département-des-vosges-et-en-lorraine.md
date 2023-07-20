@@ -1,6 +1,6 @@
 ---
-title: L'etat du rock dans le d�partement des Vosges et en Lorraine
-excerpt: Le rock en Lorraine
+title: L'etat du rock dans les Vosges et en Lorraine
+excerpt: Le rock en Lorraine ou en est-on? 
 author: Nicolas Formet
 categories:
   - topics
@@ -23,16 +23,17 @@ Dans les années 1990, le rock alternatif est devenu populaire dans le départem
 Aujourd'hui, le rock est toujours populaire dans le département des Vosges et en Lorraine. De nombreux groupes de rock continuent à être créés dans cette région, et ils jouent un rôle important dans le développement de la musique rock en France.
 
 Voici quelques-uns des groupes de rock les plus populaires du département des Vosges et de Lorraine :
-
-    Magma
-    Ange
-    Uzeb
-    Sortilège
-    ADX
-    Loudblast
-    Tagada Jones
-    Les Wampas
-    Les Ramoneurs de Menhirs
-    Vos fidèles serviteurs: STONEDEAF bien sûr! 
+<ul>
+		<li>Magma</li>
+		<li>Ange</li>
+		<li>Uzeb</li>
+    <li>Sortilège</li>
+		<li>ADX</li>
+		<li>Loudblast</li>
+    <li>Tagada Jones</li>
+		<li>Les Wampas</li>
+		<li>Les Ramoneurs de Menhirs</li>
+    <li>Vos fidèles serviteurs: STONEDEAF bien sûr! </li>
+</ul>
 
 Le rock est un genre musical vivant et dynamique, et il continue de se développer dans le département des Vosges et en Lorraine. De nombreux groupes de rock continuent à être créés dans cette région, et ils jouent un rôle important dans le développement de la musique rock en France.

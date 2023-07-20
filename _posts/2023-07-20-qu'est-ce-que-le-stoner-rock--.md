@@ -29,28 +29,28 @@ Les caractéristiques du stoner rock
 Le stoner rock se caractérise par son son lourd, lent et répétitif, ses riffs de guitare lourds et ses paroles souvent psychédéliques. Les paroles des chansons de stoner rock abordent souvent des thèmes tels que la drogue, la spiritualité et la nature.
 
 Voici quelques-unes des caractéristiques les plus courantes du stoner rock :
-
-    Un son lourd et lent, avec un tempo souvent inférieur à 120 BPM.
-    Des riffs de guitare lourds et distordus.
-    Une basse lourde et omniprésente.
-    Des percussions simples et répétitives.
-    Des paroles souvent psychédéliques, qui abordent des thèmes tels que la drogue, la spiritualité et la nature.
+<ul>
+		<li>Un son lourd et lent, avec un tempo souvent inférieur à 120 BPM.</li>
+		<li>Des riffs de guitare lourds et distordus.</li>
+		<li>Une basse lourde et omniprésente.</li>
+    <li>Des percussions simples et répétitives.</li>
+		<li>Des paroles souvent psychédéliques, qui abordent des thèmes tels que la drogue, la spiritualité et la nature.</li>
+</ul>
 
 Les groupes de stoner rock
 
 Certains des groupes de stoner rock les plus populaires incluent :
-
-    Kyuss
-    Sleep
-    Monster Magnet
-    Electric Wizard
-    The Melvins
-    Fu Manchu
-    Clutch
-    The Sword
-    Red Fang
-    Elder
-
+<ul>
+		<li>Sleep</li>
+		<li>Monster Magnet</li>
+		<li>Electric Wizard</li>
+    <li>The Melvins</li>
+		<li>Fu Manchu</li>
+    <li>Clutch</li>
+		<li>The Sword</li>
+    <li>Red Fang</li>
+		<li> Elder</li>
+</ul>
 Le stoner rock aujourd'hui
 
 Le stoner rock est un genre musical qui continue d'évoluer et de se réinventer. Il est un genre musical apprécié par un large public, et il continue de faire des adeptes à travers le monde.
