@@ -14,8 +14,7 @@
     <!-- Banner -->
     <section id="banner" style="box-shadow: 0px 0px 15px black;">
       <div class="inner">
-        <h1
-          style="font-family:'Rubik Glitch', cursive; text-shadow: -0.06em 0 red, 0.06em 0 cyan;">
+        <h1 style="font-family:'Rubik Glitch', cursive; text-shadow: -0.06em 0 red, 0.06em 0 cyan;">
           {{ site.title }}</h1>
         <p style="font-size: 150%;">{{ site.description }}</p>
         <!--
@@ -116,37 +115,39 @@
     <!-- Three -->{%
     if site.tags.featured %}
     <section id="landing_features" class="wrapper style3 special" style="box-shadow: 0px 0px 15px black;">
-      <div class="inner">
-        <header class="major">
-          <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;"><a href="{{ my_page.url | prepend:site.baseurl }}">{{ site.features-title }}</a></h2>
-          <!-- <p>Blog posts with decent content</p> -->
-        </header>
-        <ul class="features">{%
-          for my_post in site.posts %}{%
-          if my_post.tags contains 'featured' %}{%
-          assign i = i | plus:1 %}
-          <li class="icon fa-{% if my_post.icon %}{{ my_post.icon }}{% else %}heart-o{% endif %}">
-            <!-- featured:{{ i }} -->
-            <a href="{{ my_post.url | prepend:site.baseurl }}">
-              <div class="container">
-                <h3>{{ my_post.title }}</h3>
-                <span> {{ my_post.date | date: "%-d %B %Y"}} </span>
-                <p>{{ my_post.data}}<br />{{ my_post.excerpt | strip_html | truncatewords: 16 }}</p>
-              </div>
-            </a>
-          </li>{%
-          if i == 8 %}{%
-          break %}{%
-          endif %}{%
-          endif %}{%
-          endfor %}
-        </ul>
-      </div>
+      <a href="{{ my_page.url | prepend:site.baseurl }}">
+        <div class="inner">
+          <header class="major">
+            <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;">{{ site.features-title }}</h2>
+            <!-- <p>Blog posts with decent content</p> -->
+          </header>
+          <ul class="features">{%
+            for my_post in site.posts %}{%
+            if my_post.tags contains 'featured' %}{%
+            assign i = i | plus:1 %}
+            <li class="icon fa-{% if my_post.icon %}{{ my_post.icon }}{% else %}heart-o{% endif %}">
+              <!-- featured:{{ i }} -->
+              <a href="{{ my_post.url | prepend:site.baseurl }}">
+                <div class="container">
+                  <h3>{{ my_post.title }}</h3>
+                  <span> {{ my_post.date | date: "%-d %B %Y"}} </span>
+                  <p>{{ my_post.data}}<br />{{ my_post.excerpt | strip_html | truncatewords: 16 }}</p>
+                </div>
+              </a>
+            </li>{%
+            if i == 8 %}{%
+            break %}{%
+            endif %}{%
+            endif %}{%
+            endfor %}
+          </ul>
+        </div>
+      </a>
     </section>{%
     endif %}
 
     <!-- CTA -->
-    <section id="cta" class="wrapper style4" >
+    <section id="cta" class="wrapper style4">
       <div class="inner">
         <header>
           <h2>{{ site.closing-head }}</h2>
