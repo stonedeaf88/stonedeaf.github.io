@@ -82,7 +82,8 @@
           <a href="{{ my_page.url | prepend:site.baseurl }}">
             <div class="content">
               <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;">{{ my_page.title }}</h2>
-              <p class="icon fa-arrow-up major style1"> Cliquez ici {{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
+              <span class="icon fa-solid fa-arrow-up">Cliquez ici </span>
+              <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
             </div>
           </a>
         </div>
