@@ -82,7 +82,7 @@
           <a href="{{ my_page.url | prepend:site.baseurl }}">
             <div class="content">
               <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;">{{ my_page.title }}</h2>
-              <span class="icon fa-solid fa-arrow-up" style="text-align: center;"> Cliquez ici </span>
+              <span> Cliquez ici! </span>
               <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
             </div>
           </a>
@@ -101,6 +101,7 @@
           <a href="{{ my_page.url | prepend:site.baseurl }}">
             <div class="content">
               <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;">{{ my_page.title }}</h2>
+              <span> Cliquez ici! </span>
               <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
             </div>
           </a>
@@ -120,6 +121,7 @@
         <div class="inner">
           <header class="major">
             <h2 style="font-family: 'Zilla Slab Highlight', cursive; font-size: 300%;">{{ site.features-title }}</h2>
+            <span> Cliquez ici! </span>
             <!-- <p>Blog posts with decent content</p> -->
           </header>
           <ul class="features">{%
